@@ -4,7 +4,7 @@ from pydub import AudioSegment
 import os
 
 # Tokeni buraya əlavə et
-TOKEN = "YOUR_NEW_BOT_TOKEN"
+TOKEN = "7347273588:AAHSpIH_e-jgoaT7Z9dBcFDNIaaJRzeLIUo"
 
 async def handle_audio(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message.audio or update.message.voice:
